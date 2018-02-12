@@ -1,28 +1,44 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+.main {
+  background: url(https://images.unsplash.com/photo-1468877294001-94aef5ebfa1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa263878c162473d192890c67e0c8ec&auto=format&fit=crop&w=1050&q=80)center no-repeat;
+  background-size: cover;
+  height: 250px;
   padding: 20px;
-  color: white;
+  color:white;
+  font-size: 50px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.weather {
+  background: gray;
+  height: 100px;
+  flex-direction: row;
+  text-align: right;
 }
 
-.App-intro {
-  font-size: large;
+.places {
+  background: steelblue;
+  height: 100px;
+  font-size: 30px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.workouts {
+  background: gray;
+  height: 100vh;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+
